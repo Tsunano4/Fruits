@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chanu Fruit Shop</title>
+  <link rel="stylesheet" href="fruits.css">
+</head>
+<body>
+  
+  <header>
+      <div class="logo">
+          <img src="https://1000freespins.dk/wp-content/uploads/2017/06/Fruit-shop_logo.png" alt="">
+          <h1>Fruit Shop</h1>
+      </div>
+      <nav>
+      <a href="#">Home</a>
+      <a href="#">Products</a>
+      <a href="#">Contact</a>
+      <a href="#">About</a>
+      </nav>
+  </header>
+
+  <div class="selecting">
+    <div class="selecting-contain">
+        <label for="filter">Filter:</label>
+        <select id="filter" onchange="applyFilter()">
+        <option value="default">Default</option>
+        <option value="A-Z">A-Z</option>
+        <option value="Z-A">Z-A</option>
+        <option value="higherPrice">Higher Price</option>
+        <option value="lowerPrice">Lower Price</option>
+        </select>
+    </div>
+  </div>
+
+  <div class="fruit-container" id="fruitContainer"></div>
+  
+  <script src="fruits.js"></script>
+  <script>
+    function applyFilter() {
+      const filter = document.getElementById('filter').value;
+      const fruitContainer = document.getElementById('fruitContainer');
+      const cards = Array.from(fruitContainer.getElementsByClassName('fruit-card'));
+
+      switch (filter) {
+        case 'A-Z':
+          cards.sort((a, b) => {
+            const nameA = a.querySelector('h2').textContent.toUpperCase();
+            const nameB = b.querySelector('h2').textContent.toUpperCase();
+            return nameA.localeCompare(nameB);
+          });
+          break;
+        case 'Z-A':
+          cards.sort((a, b) => {
+            const nameA = a.querySelector('h2').textContent.toUpperCase();
+            const nameB = b.querySelector('h2').textContent.toUpperCase();
+            return nameB.localeCompare(nameA);
+          });
+          break;
+        case 'higherPrice':
+          cards.sort((a, b) => {
+            const priceA = parseFloat(a.querySelector('.price').textContent.slice(1));
+            const priceB = parseFloat(b.querySelector('.price').textContent.slice(1));
+            return priceB - priceA;
+          });
+          break;
+        case 'lowerPrice':
+          cards.sort((a, b) => {
+            const priceA = parseFloat(a.querySelector('.price').textContent.slice(1));
+            const priceB = parseFloat(b.querySelector('.price').textContent.slice(1));
+            return priceA - priceB;
+          });
+          break;
+        default:
+          cards.sort((a, b) => a.dataset.originalOrder - b.dataset.originalOrder);
+          break;
+      }
+
+      fruitContainer.innerHTML = '';
+      cards.forEach(card => fruitContainer.appendChild(card));
+    }
+  </script>
+</body>
+</html>

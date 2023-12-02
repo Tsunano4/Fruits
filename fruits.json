@@ -1,0 +1,119 @@
+{
+    "fruits": [
+      {
+        "name": "Apple",
+        "link": "https://th.bing.com/th/id/OIP.5bLEGgrUJw9PXpPA3ReYBwHaGU?w=220&h=188&c=7&r=0&o=5&pid=1.7",
+        "description": "A crisp and sweet fruit",
+        "price": 111.00
+      },
+      {
+        "name": "Banana",
+        "link": "https://th.bing.com/th/id/OIP.fBI4BDOXfg4iOhIrDjEUMQHaE5?w=278&h=184&c=7&r=0&o=5&pid=1.7",
+        "description": "A yellow, potassium-rich fruit",
+        "price": 90.00
+      },
+      {
+        "name": "Orange",
+        "link": "https://th.bing.com/th/id/OIP.ipAy9uhIxyyH81t7W2ZBxwHaFj?w=245&h=184&c=7&r=0&o=5&pid=1.7",
+        "description": "A citrus fruit with vitamin C",
+        "price": 40.00
+      },
+      {
+        "name": "Grapes",
+        "link": "https://th.bing.com/th/id/R.964d76d552860a41775dedd4a2022af0?rik=ktqdtQD5TRA4dw&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fgrapes-hd-png-seeded-grapes-550.png&ehk=6dJ23GQWEIljB7ncGbiF0yFVjkFNSR1618XnCfO9myQ%3d&risl=&pid=ImgRaw&r=0",
+        "description": "Small, juicy, and seedless berries",
+        "price": 150.00
+      },
+      {
+        "name": "Strawberry",
+        "link": "https://th.bing.com/th/id/OIP.fbfv1UXqOC93nbKuzwAtPwHaHa?w=190&h=191&c=7&r=0&o=5&pid=1.7",
+        "description": "Sweet, red berries",
+        "price": 90.00
+      },
+      {
+        "name": "Watermelon",
+        "link": "https://th.bing.com/th/id/OIP.QAOT86H-eOfNhHEXo4E9qgHaHa?w=181&h=181&c=7&r=0&o=5&pid=1.7",
+        "description": "Juicy and refreshing",
+        "price": 100.00
+      },
+      {
+        "name": "Pineapple",
+        "link": "https://th.bing.com/th/id/OIP.gjRqe59jz1_bpnjBjiRIZAHaG8?w=183&h=172&c=7&r=0&o=5&pid=1.7",
+        "description": "Tropical and tangy",
+        "price": 70.00
+      },
+      {
+        "name": "Mango",
+        "link": "https://th.bing.com/th/id/OIP.wkwfJ60B7BuTo0F15kDpbgHaJQ?w=156&h=195&c=7&r=0&o=5&pid=1.7",
+        "description": "Sweet and exotic",
+        "price": 90.00
+      },
+      {
+        "name": "Kiwi",
+        "link": "https://th.bing.com/th/id/OIP.YVn6SC2K_reXXqa102z4_AHaE8?w=291&h=194&c=7&r=0&o=5&pid=1.7",
+        "description": "Small, green, and packed with nutrients",
+        "price": 120.00
+      },
+      {
+        "name": "Blueberry",
+        "link": "https://th.bing.com/th/id/OIP.MCp1Ut3qgbkZvRSlp3h0aAHaFu?w=215&h=180&c=7&r=0&o=5&pid=1.7",
+        "description": "Tiny, antioxidant-rich berries",
+        "price": 170.00
+      },
+      {
+        "name": "Peach",
+        "link": "https://th.bing.com/th/id/OIP.aDI36kKcimnHYzKTrsNVugHaHa?w=213&h=213&c=7&r=0&o=5&pid=1.7",
+        "description": "Soft and fuzzy with a sweet taste",
+        "price": 130.00
+      },
+      {
+        "name": "Cherry",
+        "link": "https://th.bing.com/th/id/OIP.kZ_7c5GCR6VbP-CWiUW_cgHaGa?w=208&h=180&c=7&r=0&o=5&pid=1.7",
+        "description": "Small, red or black, and delicious",
+        "price": 120.00
+      },
+      {
+        "name": "Plum",
+        "link": "https://th.bing.com/th/id/OIP.4BSxqxbfQ_Cj3HHMeDhFZQHaGS?w=224&h=189&c=7&r=0&o=5&pid=1.7",
+        "description": "Sweet and juicy stone fruit",
+        "price": 225.00
+      },
+      {
+        "name": "Raspberry",
+        "link": "https://th.bing.com/th/id/OIP.t88aWBVdYLTVgGSXtsbxVQHaF1?w=242&h=190&c=7&r=0&o=5&pid=1.7",
+        "description": "Juicy and flavorful berries",
+        "price": 215.00
+      },
+      {
+        "name": "Cantaloupe",
+        "link": "https://th.bing.com/th/id/OIP.MMcbhcRXrzHuBuMsBCvTXgHaF5?w=232&h=185&c=7&r=0&o=5&pid=1.7",
+        "description": "Sweet and orange-fleshed melon",
+        "price": 300.00
+      },
+      {
+        "name": "Blackberry",
+        "link": "https://th.bing.com/th/id/OIP.xs8TzLWG1LRXltK7jLywdgHaGB?w=251&h=204&c=7&r=0&o=5&pid=1.7",
+        "description": "Dark and rich in antioxidants",
+        "price": 320.00
+      },
+      {
+        "name": "Grapefruit",
+        "link": "https://th.bing.com/th/id/OIP.6VfzTkzaqDdL3SQoeuEMOwHaF2?w=244&h=193&c=7&r=0&o=5&pid=1.7",
+        "description": "Tart and citrusy",
+        "price": 280.00
+      },
+      {
+        "name": "Pear",
+        "link": "https://th.bing.com/th/id/OIP.8JxVzwC926GJbSwwVoXVDQHaHa?w=214&h=214&c=7&r=0&o=5&pid=1.7",
+        "description": "Sweet and juicy, with a distinctive shape",
+        "price": 160.00
+      },
+      {
+        "name": "Apricot",
+        "link": "https://th.bing.com/th/id/OIP.8gnolUAExlyCxUuby_bikwHaF4?w=276&h=219&c=7&r=0&o=5&pid=1.7",
+        "description": "Velvety and sweet stone fruit",
+        "price": 385
+      }
+    ]
+  }
+  
